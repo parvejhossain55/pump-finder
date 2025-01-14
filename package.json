@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "nodemon app.js"
+		"dev": "nodemon ./scripts/index"
 	},
 	"keywords": [],
 	"author": "",
@@ -15,6 +15,7 @@
 	},
 	"dependencies": {
 		"axios": "^1.7.7",
+		"technicalindicators": "^3.1.0",
 		"trading-signals": "^6.0.1",
 		"ws": "^8.18.0"
 	}
